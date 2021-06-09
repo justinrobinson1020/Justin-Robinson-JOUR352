@@ -28,21 +28,25 @@ h3 {
     font-weight: 600;
 }
 
+/* Company Names */
 h4 {
     font-size: 1.5em;
     font-weight: 400;
 }
 
+/* Job Dates */
 h5 {
     font-size: 1em;
     font-weight: 400;
     font-style: italic;
 }
 
+/* Contact Info, Skills, Education */
 li {
     font-size: 1em;
 }
 
+/* Professional Title */
 strong {
     color: #33485e;
     font-size: 1.5em;
