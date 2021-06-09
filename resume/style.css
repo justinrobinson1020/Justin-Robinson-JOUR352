@@ -1,3 +1,4 @@
+/* Base style for the page */
 body {
     color: #444;
     font-family: 'Open Sans', Arial, sans-serif;
@@ -5,6 +6,7 @@ body {
     font-weight: 400;
 }
 
+/* Name */
 h1 {
     color: #33485e;
     font-size: 3em;
@@ -12,6 +14,7 @@ h1 {
     text-transform: uppercase;
 }
 
+/* Section Headings */
 h2 {
     background-color: #33485e;
     color: white;
@@ -19,6 +22,7 @@ h2 {
     font-weight: 400;
 }
 
+/* Job Titles */
 h3 {
     font-size: 1.5em;
     font-weight: 600;
