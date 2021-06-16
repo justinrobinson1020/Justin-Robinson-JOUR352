@@ -6,6 +6,14 @@ body {
     font-weight: 400;
 }
 
+/* Document Container */
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
 /* Name */
 #name {
     border-bottom: 1px solid #33485e;
@@ -53,14 +61,34 @@ body {
     margin: 10px 0;
 }
 
+/* Contact Information Menu */
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contact Information Menu Items */
+.menu li {
+    display: inline;
+}
+
+/* Education, Skills */
+.degrees, .do {
+    margin: 5px 0 0;
+}
+
 /* Contact Info, Skills, Education */
 li {
     font-size: 1em;
 }
 
 /* Professional Title */
-strong {
+#title {
     color: #33485e;
+    margin: 20px 0 0;
     font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
     text-transform: uppercase;
 }
