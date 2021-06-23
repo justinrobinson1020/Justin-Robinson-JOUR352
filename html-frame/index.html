@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Frame</title>
+
+    <!-- Bootstrap CSS (v 4.4) -->
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1"
+                        aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                    aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0"
+                    type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Bootstrap Grid -->
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Headline -->
+        <h1 id="headline">Headline Goes Here</h1>
+
+        <!-- Byline -->
+        <p id="byline">byline</p>
+
+        <!-- Chapter Heading-->
+        <h2 class="chapter">Chapter Headline</h2>
+
+        <!-- Body Text-->
+        <p class="body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non
+            consectetur a erat nam at lectus. Potenti nullam ac tortor vitae purus
+            faucibus ornare suspendisse sed. Consequat ac felis donec et odio pellentesque
+            diam. Libero enim sed faucibus turpis in eu mi bibendum. Nisi est sit amet
+            facilisis. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut.
+            In eu mi bibendum neque egestas. Pellentesque habitant morbi tristique
+            senectus et. Quis lectus nulla at volutpat diam ut. Morbi leo urna molestie at
+            elementum eu. Justo eget magna fermentum iaculis eu non diam phasellus. Dictum
+            non consectetur a erat nam at. Donec ultrices tincidunt arcu non sodales neque
+            sodales. Et odio pellentesque diam volutpat commodo sed egestas egestas
+            fringilla. Neque egestas congue quisque egestas diam in arcu cursus. Dictum
+            varius duis at consectetur lorem. At imperdiet dui accumsan sit amet nulla.
+        </p>
+
+        <div class="image">
+            <!-- Image -->
+            <img src="./weird-cat.jpg" />
+            <!-- Caption-->
+            <p class="caption">caption: brief description of photo and credit</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p class="body-text">
+                    One of three columns
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <p class="body-text">
+                    One of three columns
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <p class="body-text">
+                    One of three columns
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p class="footer-text">Footer Text</p>
+        <p class="footer-text">Copyright Info</p>
+    </div>
+
+    <!-- Bootstrap Javascript-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
