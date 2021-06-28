@@ -14,20 +14,6 @@ body {
     padding-bottom: 50px;
 }
 
-/* Name */
-#name {
-    border-bottom: 1px solid #33485e;
-    color: #33485e;
-    font-size: 3em;
-    /* centering margin */
-    margin: 0 auto;
-    min-width: 300px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 60%;
-    
-}
-
 /* Section Headings */
 .section-header {
     background-color: #33485e;
@@ -81,6 +67,20 @@ body {
 /* Contact Info, Skills, Education */
 li {
     font-size: 1em;
+}
+
+/* Name */
+#name {
+    border-bottom: 1px solid #33485e;
+    color: #33485e;
+    font-size: 3em;
+    /* centering margin */
+    margin: 0 auto;
+    min-width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60%;
+    
 }
 
 /* Professional Title */
