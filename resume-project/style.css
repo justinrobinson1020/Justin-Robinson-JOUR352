@@ -1,5 +1,9 @@
 /* Document Styles */
 
+body {
+    font-style: 'Roboto', 'Open Sans', Arial, sans-serif;
+}
+
 h1 {
     font-size: 6em;
     font-weight: 900;
