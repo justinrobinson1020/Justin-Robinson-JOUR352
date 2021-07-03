@@ -1,0 +1,318 @@
+/* Page Styles */
+body {
+    font-family: 'Newsreader', serif;
+    background-color: #fff;
+    color: #000;
+}
+
+.red {
+    color: #ca2626;
+}
+
+a {
+ color: #e05232;
+}
+
+a:hover {
+    color: #ca2626;
+}
+
+a:visited{
+    color:#1b751b;
+}
+
+/* Navbar */
+.nav-text {
+    color: #fff;
+    width: 100%;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* Header */
+.hero-container {
+    width: 100%;
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    color: #000;
+}
+
+.hero-title {
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Newsreader', serif;
+    font-size: 5em;
+    font-weight: 600;
+}
+
+.hero-sub {
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#headline {
+    font-family: 'Newsreader', serif;
+    font-size: 4em;
+    font-weight: 600;
+    margin-top: .5em;
+    text-align: left;
+}
+
+#byline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+/* Main Content */
+
+.body-text {
+    margin: 1em 0;
+    font-size: 1.3em;
+    line-height: 180%;
+}
+
+.chapter {
+    color:#ca2626;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:  underline;
+    text-decoration: overline;
+}
+
+/* Pull Quotes */
+.pull-quote-container {
+    border-left: solid 2px #e05232;
+    margin-left: 10%;
+    padding: 10px;
+    width: 90%;
+}
+
+.pull-quote {
+    font-size: 3em;
+    color: #e05232;
+}
+
+.pull-quote-attrib {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Sidebar */
+.sidebar-container {
+    border: #000 solid 2px;
+    margin: 35px auto;
+    width: 90%;
+    
+}
+.sidebar-head {
+    background-color: #ca2626;
+    border-bottom: #000 solid 2px;
+    color: #fff;
+    font-family: 'Popping', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sidebar-sub {
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+.sidebar-body {
+    font-size: 2em;
+    margin: 0 auto 10px;
+    padding: 5% 10%;
+}
+
+.sidebar-item {
+    font-weight: 500;
+    height: 350px;
+}
+
+.sidebar-attrib {
+    margin-left: 5%;
+}
+
+/* Customize Carousel Controls/Indicators */
+
+.carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #ca2626;
+    border-radius: 50%;
+}
+
+
+
+/* Photos */
+
+.image {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.caption {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    margin-left: 5%;
+}
+
+/* Footer */
+
+#footer {
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+}
+
+.footer-text {
+    margin-bottom: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+
+/* Responsive Media Queries */
+
+@media (max-width:1270px) {
+    .hero-title {
+        font-size: 4em;
+    }
+    
+    .hero-sub {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:1015px) {
+    .hero-title {
+        font-size: 3em;
+    }
+    
+    .hero-sub {
+        font-size: 1.25em;
+    }
+
+    .chapter {
+        font-size: 2em;
+    }
+
+    .sidebar-body {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width:770px) {
+    .hero-title {
+        font-size: 2em;
+    }
+    
+    .hero-sub {
+        font-size: 1em;
+    }
+
+    .sidebar-head {
+        font-size: 2em;
+    }
+
+    .sidebar-sub {
+        font-size: 1.2em;
+    }
+
+    .sidebar-body {
+        font-size: 1.4em;
+    }
+
+}
+
+@media (max-width:514px) {
+    .hero-title {
+        font-size: 1.5em;
+    }
+    
+    .hero-sub {
+        font-size: .8em;
+    }
+
+    #headline {
+        font-size: 2em;
+    }
+
+    .chapter {
+        font-size: 1.6em;
+    }
+
+    .pull-quote {
+        font-size: 1.8em;
+    }
+
+    .pull-quote-attrib {
+        font-size: .7em;
+    }
+}
+
+@media (max-width:380px) {
+    .hero-title {
+        font-size: 1em;
+    }
+    
+    .hero-sub {
+        font-size: .75em;
+    }
+
+    .body-text{
+        font-size: 1.1em;
+    }
+
+    .chapter {
+        font-size: 1.3em;
+    }
+
+    .pull-quote {
+        font-size: 1.8em;
+    }
+
+    .pull-quote-attrib {
+        font-size: .7em;
+    }
+
+    .sidebar-head {
+        font-size: 1.6em;
+    }
+
+    .sidebar-sub {
+        font-size: 1em;
+    }
+
+    .sidebar-body {
+        font-size: 1.25em;
+    }
+}
